@@ -1,0 +1,15 @@
+.box{
+    width:600px;
+    border: 1px solid black;
+    border-radius: 20px;
+    background-color: rgb(177, 155, 28);
+    padding: 40px;
+    margin-left: 500px;
+    color: rgb(60, 30, 210);
+    height: 500px;
+    overflow:scroll;
+    overflow-x: hidden;
+    margin-top: 50px;
+    font-style: oblique;
+    font-size: medium;
+}

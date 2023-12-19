@@ -1,0 +1,10 @@
+<div class="container d-flex justify-content-centre align-items-centre">
+<div class="box">
+
+@for(item  of data ; track item.id ){
+    <div class="d-flex align-items-centre">
+       <input type="checkbox" name="id">
+       <label>{{ item.title}}</label><br>
+</div>
+
+}
